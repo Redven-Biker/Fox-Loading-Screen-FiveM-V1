@@ -26,12 +26,12 @@ body {
   -ms-transition: all 4s ease-in-out;
   -o-transition: all 4s ease-in-out;
   transition: all 4s ease-in-out;
-  
-    -webkit-transform: scale(1);
-     -moz-transform: scale(1);
-      -ms-transform: scale(1);
-       -o-transform: scale(1);
-          transform: scale(1)
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1)
 }
 
 .bg-img:first-child {
@@ -63,38 +63,133 @@ body {
 .rgb {
   position: fixed;
   font-size: 22px;
-  transform: translate(-50%,-50%);
-    width: 6px;
-    height: 20000px;
-    margin-left: 100%;
-     animation-name: rgb;
-     background-color: red;
-     animation-name: example;
-     animation-duration: 20s;
-     animation-iteration-count: 20;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 20000px;
+  animation-name: rgb;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: 20;
+  top: 0;
+  left: 0;
 }
 
 
 @keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  5%   {background-color:rgb(255, 60, 0); left:0px; top:0px;}
-  10%  {background-color:rgb(255, 145, 0); left:0px; top:0px;}
-  15%  {background-color:rgb(255, 196, 0); left:0px; top:0px;}
-  20%  {background-color:rgb(179, 255, 0); left:0px; top:0px;}
-  25%  {background-color:rgb(115, 255, 0); left:0px; top:0px;}
-  30%  {background-color:rgb(0, 255, 13); left:0px; top:0px;}
-  35%  {background-color:rgb(0, 255, 136); left:0px; top:0px;}
-  40%  {background-color:rgb(0, 255, 242); left:0px; top:0px;}
-  45%  {background-color:rgb(0, 195, 255); left:0px; top:0px;}
-  50%  {background-color:rgb(0, 132, 255); left:0px; top:0px;}
-  55%  {background-color:rgb(0, 89, 255); left:0px; top:0px;}
-  60%  {background-color:rgb(17, 0, 255); left:0px; top:0px;}
-  65%  {background-color:rgb(153, 0, 255); left:0px; top:0px;}
-  70%  {background-color:rgb(204, 0, 255); left:0px; top:0px;}
-  75%  {background-color:rgb(255, 0, 255); left:0px; top:0px;}
-  80%  {background-color:rgb(255, 0, 157); left:0px; top:0px;}
-  85%  {background-color:rgb(255, 0, 76); left:0px; top:0px;}
-  100% {background-color:rgb(255, 0, 0); left:0px; top:0px;}
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  5% {
+    background-color: rgb(255, 60, 0);
+    left: 0px;
+    top: 0px;
+  }
+
+  10% {
+    background-color: rgb(255, 145, 0);
+    left: 0px;
+    top: 0px;
+  }
+
+  15% {
+    background-color: rgb(255, 196, 0);
+    left: 0px;
+    top: 0px;
+  }
+
+  20% {
+    background-color: rgb(179, 255, 0);
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: rgb(115, 255, 0);
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background-color: rgb(0, 255, 13);
+    left: 0px;
+    top: 0px;
+  }
+
+  35% {
+    background-color: rgb(0, 255, 136);
+    left: 0px;
+    top: 0px;
+  }
+
+  40% {
+    background-color: rgb(0, 255, 242);
+    left: 0px;
+    top: 0px;
+  }
+
+  45% {
+    background-color: rgb(0, 195, 255);
+    left: 0px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: rgb(0, 132, 255);
+    left: 0px;
+    top: 0px;
+  }
+
+  55% {
+    background-color: rgb(0, 89, 255);
+    left: 0px;
+    top: 0px;
+  }
+
+  60% {
+    background-color: rgb(17, 0, 255);
+    left: 0px;
+    top: 0px;
+  }
+
+  65% {
+    background-color: rgb(153, 0, 255);
+    left: 0px;
+    top: 0px;
+  }
+
+  70% {
+    background-color: rgb(204, 0, 255);
+    left: 0px;
+    top: 0px;
+  }
+
+  75% {
+    background-color: rgb(255, 0, 255);
+    left: 0px;
+    top: 0px;
+  }
+
+  80% {
+    background-color: rgb(255, 0, 157);
+    left: 0px;
+    top: 0px;
+  }
+
+  85% {
+    background-color: rgb(255, 0, 76);
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    background-color: rgb(255, 0, 0);
+    left: 0px;
+    top: 0px;
+  }
 }
 
 
@@ -107,7 +202,7 @@ body {
   font-size: 22px;
   top: 0%;
   left: 0%;
-  transform: translate(0%,0%);
+  transform: translate(0%, 0%);
   width: 20%;
   height: 100%;
   background-color: rgb(27, 27, 27);
@@ -121,7 +216,7 @@ body {
   font-size: 22px;
   top: 0%;
   left: 0%;
-  transform: translate(0%,0%);
+  transform: translate(0%, 0%);
   width: 20%;
   height: 100%;
 }
@@ -161,7 +256,7 @@ body {
   font-family: 'Muli', sans-serif;
   color: white;
   font-size: 22px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   border-radius: 10px;
 }
 
